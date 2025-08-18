@@ -1,0 +1,77 @@
+/* Body background and typography */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #0e0b16; /* Deep space black-purple */
+  color: #e0e0e0; /* Light text for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+/* Box Model usage */
+main {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #00b894; /* Iridescent green (peacock feather base) */
+  background-color: #1a1f2b; /* Deep cool-toned background */
+  border-radius: 8px;
+}
+
+/* ID selector */
+#main-title {
+  text-align: center;
+  color: #6c5ce7; /* Royal purple */
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+/* Class selector */
+.highlight {
+  color: #00cec9; /* Teal-aqua (peacock shimmer) */
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Complex selector */
+nav a:hover {
+  background-color: #2d3436; /* Dark hover background */
+  color: #f1c40f; /* Golden pop (peacock feather accent) */
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Buttons (optional styling) */
+button {
+  background-color: #0984e3; /* Vivid peacock blue */
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #00cec9; /* Aqua hover */
+}
+
+/* Zodiac List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #2f3542; /* Dark feather gray-blue */
+  margin: 6px 0;
+  padding: 10px;
+  border-left: 4px solid #6c5ce7; /* Royal purple accent */
+  border-radius: 3px;
+}
+
+/* Footer Padding */
+footer {
+  padding-left: 20px;
+}
