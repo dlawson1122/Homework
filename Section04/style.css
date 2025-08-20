@@ -71,6 +71,29 @@ li {
   border-radius: 3px;
 }
 
+/* Zodiac Chart Image */
+.zodiac-chart {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: 30px auto;
+  border: 3px solid #6c5ce7; /* Royal purple frame */
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(108, 92, 231, 0.4); /* Glow like it's magic */
+}
+
+a[target="_blank"] {
+  color: #00cec9; /* Aqua shimmer */
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a[target="_blank"]:hover {
+  color: #f1c40f; /* Golden pop on hover */
+  text-decoration: underline;
+}
+
 /* Footer Padding */
 footer {
   padding-left: 20px;
