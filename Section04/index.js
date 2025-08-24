@@ -68,3 +68,8 @@ waterBtn.addEventListener("click", () => {
   const waterSigns = zodiacSigns.filter(sign => sign.element === "Water");
   displaySigns(waterSigns);
 });
+
+// Console message for static extras
+console.log(
+  "Zodiac chart image and astro.com link have been added to the HTML. Enjoy exploring the stars!"
+);
