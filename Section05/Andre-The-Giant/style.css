@@ -1,0 +1,143 @@
+/* BASE STYLES */
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+/* IMAGE STYLING */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+
+/* Intro image styling */
+#introPic {
+  width: 50%;
+  max-width: 400px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* NAVIGATION FACT LIST */
+#about-me {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+
+#about-me > li {
+  padding: 5px 10px;
+  background-color: #f5deb3;
+  border-radius: 5px;
+  border: 1px solid #c9a56c;
+}
+
+#about-me a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* SECTIONS */
+div {
+  border: 2px solid burlywood;
+  margin: 15px auto;
+  padding: 15px;
+  box-sizing: border-box;
+  max-width: 800px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+/* LINKS */
+a {
+  color: #000080;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #f5deb3;
+  font-size: 14px;
+  border-top: 2px solid burlywood;
+}
+
+/* MOBILE-FIRST MEDIA QUERY */
+/* For IPhone 6/7/8 width = 375px */
+@media screen and (max-width: 375px) {
+  body {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  /* Stack about-me facts vertically */
+  #about-me {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+  }
+
+  #about-me > li {
+    width: 90%;
+    text-align: center;
+  }
+
+  /* Make intro image full width */
+  #introPic {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Divs fill screen on mobile */
+  div {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
